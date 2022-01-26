@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Select should render a Select match snapshot 1`] = `
+<div
+  class="selectField"
+  data-testid="select"
+>
+  <label
+    for="test_field"
+  >
+    Test Select Field
+  </label>
+  <select
+    data-testid="select-field"
+    field="[object Object]"
+    id="test_field-select"
+    name="test_field"
+    type="text"
+  >
+    <option
+      data-testid="select-option"
+      value=""
+    >
+      --Please choose an option--
+    </option>
+    <option
+      data-testid="select-option"
+      value="Option1"
+    >
+      Option1
+    </option>
+    <option
+      data-testid="select-option"
+      value="Option2"
+    >
+      Option2
+    </option>
+    <option
+      data-testid="select-option"
+      value="Option3"
+    >
+      Option3
+    </option>
+  </select>
+</div>
+`;

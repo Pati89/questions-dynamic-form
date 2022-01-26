@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form render a Form match snapshot 1`] = `
+<form
+  class="form"
+  data-testid="form"
+>
+  <div
+    class="formControl"
+  />
+  <button
+    class="submitButton"
+    data-testid="submit-button"
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render a Footer match snapshot 1`] = `
+<div>
+  <footer
+    class="footer"
+    data-testid="footer"
+  >
+    <p>
+      Developed by 
+      <b>
+        Patrycja Banaszczyk
+      </b>
+    </p>
+  </footer>
+</div>
+`;

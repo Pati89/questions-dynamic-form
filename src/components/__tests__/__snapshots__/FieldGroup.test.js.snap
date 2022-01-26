@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FieldGroup should render a FieldGroup match snapshot 1`] = `
+<div
+  class="fieldGroup"
+  data-testid="field-group"
+>
+  <h2>
+    Test title
+  </h2>
+  <div
+    class="inputField"
+    data-testid="input"
+  >
+    <label
+      for="test1"
+    >
+      Test 1
+    </label>
+    <input
+      data-testid="input-field"
+      field="[object Object]"
+      id="test1-input"
+      name="test1"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="inputField"
+    data-testid="input"
+  >
+    <label
+      for="test2"
+    >
+      Test 2
+    </label>
+    <input
+      data-testid="input-field"
+      field="[object Object]"
+      id="test2-input"
+      name="test2"
+      type="text"
+      value=""
+    />
+  </div>
+  <div
+    class="selectField"
+    data-testid="select"
+  >
+    <label
+      for="test3"
+    >
+      Test 3
+    </label>
+    <select
+      data-testid="select-field"
+      field="[object Object]"
+      id="test3-select"
+      name="test3"
+      type="text"
+    >
+      <option
+        data-testid="select-option"
+        value=""
+      >
+        --Please choose an option--
+      </option>
+      <option
+        data-testid="select-option"
+        value="Option 1"
+      >
+        Option 1
+      </option>
+      <option
+        data-testid="select-option"
+        value="Option 2"
+      >
+        Option 2
+      </option>
+    </select>
+  </div>
+</div>
+`;

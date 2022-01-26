@@ -1,0 +1,30 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  text-align: left;
+}
+
+.appHeader {
+  font-size: 1.5rem;
+}
+
+.appContent {
+  width: 80%;
+  max-width: 500px;
+  background-color: white;
+  padding: 20px;
+  margin: 50px 0;
+}
+
+.outputContainer {
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0 5px;
+  min-height: 200px;
+  overflow: scroll;
+}

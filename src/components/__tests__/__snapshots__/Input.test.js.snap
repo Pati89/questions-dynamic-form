@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should render a Input match snapshot 1`] = `
+<div
+  class="inputField"
+  data-testid="input"
+>
+  <label
+    for="test_field"
+  >
+    Test Field
+  </label>
+  <input
+    data-testid="input-field"
+    field="[object Object]"
+    id="test_field-input"
+    name="test_field"
+    type="text"
+    value=""
+  />
+</div>
+`;
